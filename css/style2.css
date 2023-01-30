@@ -1,0 +1,56 @@
+
+@import "style3.css";
+.intro{
+    background-color:rgb(109, 214, 255);
+    padding: 200px 0;
+    display: flex;
+    color: #f1f1f1;
+    justify-content: start;
+    align-items: center;
+    /* height:800px; */
+    
+}
+.intro-icons{
+    border:1px solid black;
+    
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.fa{
+    color: white;
+}
+.intro-main{
+    margin: 0px auto;
+    text-align: center;
+    /* padding: 100px 0; */
+    /* background-color: ed; */
+    font-size: 30px;
+    text-shadow:  0px 0px 5px #002efd;
+}
+.intro-h1{
+    font-size: 50px;
+    
+}
+.projects{
+    font-size: 20px;
+    padding: 20px 100px;
+    border:5px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    text-shadow:  none;
+}
+
+/* .mouse{
+    
+    position: relative;
+    margin:50px auto 0;
+    
+background-color: red;
+    width: 25px;
+    height: 50px;
+    border:2px solid white;
+} */

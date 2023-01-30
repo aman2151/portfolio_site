@@ -1,0 +1,55 @@
+@font-fact{
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    /* text-shadow: 0px 0px 20px rgba(172, 170, 142, 0.651); */
+}
+.project{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+.project-img1{
+    background-image: url('../images/towe.png');
+    
+}
+.project-img2{
+    background-image: url('../images/portfolio.png');
+}
+.project-img3{
+    background-image: url('../images/mbti2.png');
+}
+.project-img{
+    background-size: cover;
+    width:500px;
+    height:300px;
+    margin: 0 auto;
+    border:10px solid black;
+    border-radius: 10px;
+}
+.keyboard{
+    width:600px;
+    height:20px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    box-shadow:  0px 8px 5px #888888;;
+    filter: drop-shadow(0px 8px 10px rgb(73, 255, 246));
+}
+.project-info{
+    /* background-color: red; */
+    margin: 0;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.project-info p{
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
